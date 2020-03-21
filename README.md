@@ -8,7 +8,7 @@ This repository contains the source code for this class, documentation in PDF fo
 ## Repository contents
 The following are the contents of the three directories in this repository.
 
-- #### ClassFiles  
+- #### Class  
   Contains the files ```thesis.cls``` and ```thesis.clo``` that together constitute the source code for the ```thesis``` class.
 - #### Documentation  
   Contains the file ```documentation.pdf```, which is the documentation for the ```thesis``` class.
@@ -27,9 +27,9 @@ Navigate to the directory containing your ```.tex``` source file.
 Let us assume that the file name is ```thesis.tex```, for convenience.
 
 #### Step 2:  
-Copy the files ```thesis.cls``` and ```thesis.clo``` from the ```ClassFiles```  directory into the directory containing ```thesis.tex```
+Copy the files ```thesis.cls``` and ```thesis.clo``` from the ```Class```  directory into the directory containing ```thesis.tex```
 
-```$ cp <path-to-your-local-copy-of-this-repo>/ClassFiles/* .```
+```$ cp <path-to-your-local-copy-of-this-repo>/Class/* .```
   
 #### Step 3:
 Run the following command sequence to generate the output PDF document.
