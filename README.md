@@ -29,7 +29,7 @@ Let us assume that the file name is ```thesis.tex```, for convenience.
 #### Step 2:  
 Copy the files ```thesis.cls``` and ```thesis.clo``` from the ```Class```  directory into the directory containing ```thesis.tex```
 
-```$ cp <path-to-your-local-copy-of-this-repo>/Class/* .```
+```$ cp <path-to-your-local-copy-of-this-repository>/Class/* .```
   
 #### Step 3:
 Run the following command sequence to generate the output PDF document.
