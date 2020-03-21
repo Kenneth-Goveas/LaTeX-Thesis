@@ -1,0 +1,87 @@
+\documentclass{thesis}
+
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[backend=biber]{biblatex}
+
+\definecolor{hreflink}{RGB}{150,75,0}
+\definecolor{hrefcite}{RGB}{200,0,200}
+\definecolor{hrefurl}{RGB}{0,50,200}
+
+\hypersetup{
+    colorlinks  = true,
+    linkcolor   = hreflink,
+    citecolor   = hrefcite,
+    urlcolor    = hrefurl
+}
+
+\graphicspath{{./images/}}
+
+\addbibresource{thesis.bib}
+
+\title{Project title}
+\purpose{Thesis submitted in partial fulfilment of the requirements for the degree of}
+\degree{Degree title}
+\subject{Academic field}
+\author{Author name}
+\authoraffil{Department name\linebreak University name}
+\mentor{Mentor name}
+\mentoraffil{Department name\linebreak University name}
+\logo{\includegraphics[scale=0.35]{logo.png}}
+
+\begin{document}
+
+\opening
+
+\maketitle
+
+\front
+
+\chapter{Certificate}
+
+Replace this sentence with a signed statement by the project supervisor certifying that the author has worked under his/her supervision on this project, and specifying the project duration.
+
+\chapter{Declaration}
+
+Replace this sentence with a signed statement by the author declaring that he/she has worked on this project, that the contents of the thesis are written by him/her, and that no unfair means were resorted to.
+
+\chapter{Acknowledgements}
+
+Replace this sentence with the acknowledgements.
+
+\chapter{Abstract}
+
+Replace this sentence with the abstract.
+
+\chapter{Contents}
+
+\generatetoc
+
+\chapter{List of figures}
+
+\generatelof
+
+\chapter{List of tables}
+
+\generatelot
+
+\main
+
+\chapter{First chapter}
+
+Replace this sentence with the contents of the first chapter.
+
+\appendix
+
+\chapter{First appendix}
+
+Replace this sentence with the contents of the first appendix.
+
+\back
+
+\chapter{Bibliography}
+
+\printbibliography[heading=none]
+
+\end{document}
