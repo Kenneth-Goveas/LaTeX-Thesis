@@ -12,7 +12,7 @@ The following are the contents of the three directories in this repository.
   Contains the files ```thesis.cls``` and ```thesis.clo``` that together constitute the source code for the ```thesis``` class.
 - #### Documentation  
   Contains the file ```documentation.pdf```, which is the documentation for the ```thesis``` class.
-  Also contains the LaTeX source from which this document can be generated (see the *"Compilation"* section in this README).
+  This directory also contains the LaTeX source from which this document can be generated (see the *"Compilation"* section in this README).
 - #### Headstart  
   Contains a template to help you quickly start writing your thesis under the ```thesis``` document class.
 
